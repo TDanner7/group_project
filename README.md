@@ -7,7 +7,7 @@ This project explores US import and export data utilizing the Census API. The Ce
 Access the Census API at [Census Data Sets](https://www.census.gov/data/developers/data-sets.html).
 Sign up for an API key [Census API Key Request](https://api.census.gov/data/key_signup.html).
 
-### Dependencies
+## Dependencies
 
 - `python`
 - `pandas`
@@ -69,5 +69,5 @@ As the Census API does not provide geo data, we utilized the `geopy` Python libr
 
 While most port names were structured as *[city], [st]*, providing accurate geolocation data for countries might require a more robust mapping system. Here are visual representations of US ports and global locations:
 - ![US Ports](./notebooks/plots/geo_us_ports.png)
-- ![Geo US Ports by State](./plots/geo_us_ports_by_state.png)
-- ![Global Geo Data](./plots/geo_global.png)
+- ![Geo US Ports by State](./notebooks/plots/geo_us_ports_by_state.png)
+- ![Global Geo Data](./notebooks/plots/geo_global.png)
