@@ -35,6 +35,9 @@ Examining year-to-date total values of imports and exports from October 2013 thr
 
 Further in-depth analysis could involve quantifying these trends against influential factors like policy changes and social events.
 
+A visualization of US imports, exports and the calculated trade deficit:
+![US Trade Deficit](./notebooks/plots/imports_vs_exports.png)
+
 ## US Port Imports
 
 **API Used**: porths  
