@@ -64,7 +64,7 @@ Top 10 List:
 Further analysis involved examining the top commodities imported into the leading port. The top result was *ELECTRICAL MACHINERY AND EQUIPMENT AND PARTS THEREOF; SOUND RECORDERS AND REPRODUCERS, TELEVISION RECORDERS AND REPRODUCERS, PARTS AND ACCESSORIES* with an import value of $4.75 billion.
 
 Additionally, we explored the top countries from which imports were made into the leading port:
-![Top Countries for Top Port](./notebooks/plots/top_countries_top_port.png)
+![Top Countries for Top Port](./notebooks/plots/top_countries_top_port2.png)
 
 ## Geo Data
 
