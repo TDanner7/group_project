@@ -27,6 +27,28 @@ This project aims to address fundamental queries concerning US import and export
 3. **What are the top products imported and exported?**
 4. **What are the top US trading partners for imports and exports?**
 
+## US Exports
+
+**API Used**: hs  
+**Link**: [Census API - US Exports](https://api.census.gov/data/timeseries/intltrade/exports/hs/variables.html)
+
+Examined the change in export amounts by top trade pacts (OECD, APEC, NATO, NORTH AMERICA, NAFTA) and counties (CANADA, MEXICO, CHINA) from 2013 - 2022. Our work focussed on top export ountries as this data presented a more interesting story. While trade pacts and most top countries all followed a similar trend you can see from the below imagine that China fluctuated outside of the norm. This was due to many factor including the US - China trade war from July 2018 - January 2020, as well as the fact that they recovered from COVID before the rest of the world.
+
+Top US Export Countries (excluding Trade Pacts):
+
+
+![US Exports](./notebooks/plots/top_us_export_countries.png)
+
+
+
+Change in Top US Export Countries (excluding Trade Pacts):
+
+
+![US Exports](./notebooks/plots/percent_change_in_top_export_countries.png)
+
+
+
+
 ## US Trade Deficit
 
 **API Used**: porths  
