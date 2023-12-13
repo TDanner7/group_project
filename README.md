@@ -25,17 +25,20 @@ This project aims to address fundamental queries concerning US import and export
 1. **What is the US Trade Deficit between imports and exports?**
 2. **What are the top US ports for imports and exports?**
 3. **What are the top products imported and exported?**
+4. **What are the top US trading partners for imports and exports?**
 
 ## US Trade Deficit
 
 **API Used**: porths  
 **Link**: [Census API - US Trade Deficit](https://api.census.gov/data/timeseries/intltrade/exports/porths/variables.html)
 
-Examining year-to-date total values of imports and exports from October 2013 through October 2023, the average deficit stood at $731.04 billion. Notably, the deficit fluctuated between $586.51 billion (October 2013) and $1.01 trillion (October 2022). While the deficit has generally increased over the last decade, there were instances where it decreased compared to the previous year.
+Examining year-to-date total values of imports and exports from October 2013 through October 2023, the average deficit stood at $731.04 billion. Notably, the deficit fluctuated between $586.51 billion (October 2013) and $1.01 trillion (October 2022). While the deficit has generally increased over the last decade, it decreased compared to the previous year in the years 2016, 2019 and 2023.
 
 Further in-depth analysis could involve quantifying these trends against influential factors like policy changes and social events.
 
 A visualization of US imports, exports and the calculated trade deficit:
+
+
 ![US Trade Deficit](./notebooks/plots/imports_vs_exports.png)
 
 ## US Port Imports
@@ -71,6 +74,6 @@ Additionally, we explored the top countries from which imports were made into th
 As the Census API does not provide geo data, we utilized the `geopy` Python library and its implementaion for the `Nominatim` service. Utilizing `PORT_NAME` and `CTY_NAME` properties, we fetched latitude and longitude data.
 
 While most port names were structured as *[city], [st]*, providing accurate geolocation data for countries might require a more robust mapping system. Here are visual representations of US ports and global locations:
-- ![US Ports](./notebooks/plots/geo_us_ports.png)
-- ![Geo US Ports by State](./notebooks/plots/geo_us_ports_by_state.png)
-- ![Global Geo Data](./notebooks/plots/geo_global.png)
+![US Ports](./notebooks/plots/geo_us_ports.png)
+![Geo US Ports by State](./notebooks/plots/geo_us_ports_by_state.png)
+![Global Geo Data](./notebooks/plots/geo_global.png)
