@@ -27,6 +27,30 @@ This project aims to address fundamental queries concerning US import and export
 3. **What are the top products imported and exported?**
 4. **What are the top US trading partners for imports and exports?**
 
+
+
+## US Imports
+
+**API Used**: hs  
+**Link**: [Census API - US Inports](https://api.census.gov/data/timeseries/intltrade/imports/hs/variables.html)
+
+Examined the top 3 countries with the highest import values. The countries that had the highest import values were China, Mexico, And Canada. It was not always this way. Mexico passed canada in total import value in the year 2015. There was a a decrease in total imported value during the years of 2015, 2016, 2019, and 2020. The largest decrease occured in 2020 during the covid-19 pandemic. Also realised that the gap between China and the other 2 countries has been getting smaller. My prediction is that Mexico and Canada will pass China in total imported value withan 15-20 years.
+
+Top US Export Countries (excluding Trade Pacts):
+
+
+![US Inports](./notebooks/plots/top_3_us_imports_bar_plot.png)
+
+
+
+Change in the top 3 countries:
+
+
+![US Inports](./notebooks/plots/total_import_value_by_country_and_year_in_usd.png)
+
+
+
+
 ## US Exports
 
 **API Used**: hs  
